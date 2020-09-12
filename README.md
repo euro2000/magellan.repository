@@ -1,1 +1,1 @@
-# magellan.repository
+# magellan.repository 3.0
