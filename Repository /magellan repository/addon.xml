@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="magellan.repository" name="magellan.repository" version="3.0" provider-name="magellan">
+	<extension point="xbmc.addon.repository" name="magellan.repository">
+		<info compressed="false">http://raw.github.com/euro2000/magellan.repository/master/addons.xml</info>
+		<checksum>http://raw.github.com/euro2000/magellan.repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/euro2000/magellan.repository/master/Repo/Plugins</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>magellan repository</summary>
+		<description>Magellan Tv</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+
+
