@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
+<addon id="script.video.F4mProxy" 
+	     name="F4mProxy" 
+	     version="2.8.7" 
+	     provider-name="Shani">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+    <import addon="script.module.requests" />
+  </requires>
+  <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+  </extension>
+
+
+    
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">Proxy for f4m</summary>
+    <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
+  </extension>
+</addon>
+
+
+
 
 <addon id="plugin.video.f4mTester" version="2.7.1" name="f4mTester" provider-name="Shani">
     <requires>
@@ -58,8 +82,8 @@ em procura livre na internet
 
 <addon id="magellan.repository" name="magellan.repository" version="3.0" provider-name="magellan">
 	<extension point="xbmc.addon.repository" name="magellan.repository">
-		<info compressed="false">http://raw.github.com/euro2000/magellan.repository/master/addons.xml</info>
-		<checksum>http://raw.github.com/euro2000/magellan.repository/master/addons.xml.md5</checksum>
+		<info compressed="false">http://raw.github.com/euro2000/magellan.repository/master/repo/addons.xml</info>
+		<checksum>http://raw.github.com/euro2000/magellan.repository/master/repo/addons.xml.md5</checksum>
 		<datadir zip="true">http://raw.github.com/euro2000/magellan.repository/master/repo/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -94,25 +118,3 @@ em procura livre na internet
 </addon>
 
 
-<addon id="script.video.F4mProxy"
-	     name="F4mProxy"
-	     version="2.8.7"
-	     provider-name="Shani">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.requests" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
-  </extension>
-
-
-
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Proxy for f4m</summary>
-    <description lang="en">Use this addon to play F4m v1 and v2 streams</description>
-  </extension>
-</addon>
-</addons>
