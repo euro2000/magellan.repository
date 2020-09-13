@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="magellan.repository" name="magellan.repository" version="3.0" provider-name="magellan">
+	<extension point="xbmc.addon.repository" name="magellan.repository">
+		<info compressed="false"></info>
+		<checksum></checksum>
+		<datadir zip="true"></datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>magellan repository</summary>
+		<description>Magellan repository</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
