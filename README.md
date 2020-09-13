@@ -1,1 +1,0 @@
-# magellan.repository 3.0
