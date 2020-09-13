@@ -58,23 +58,21 @@ em procura livre na internet
 
 
 
-<addon id="repository.gujal" name="Gujal Addon Repository" version="1.9" provider-name="Gujal">
-	<extension point="xbmc.addon.repository" name="Gujal Addons Repository">
-		<dir>
-			<info compressed="true">https://raw.githubusercontent.com/back-to/repo/master/addons.xml</info>
-			<checksum>https://raw.githubusercontent.com/back-to/repo/master/addons.xml.md5</checksum>
-			<datadir zip="true">https://raw.githubusercontent.com/back-to/repo/master/</datadir>
-		</dir>
-		<info compressed="false">https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/addons.xml</info>
-		<checksum>https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.github.com/Gujal00/GujalKodiWork/master/upto_leia/zips</datadir>
+
+<addon id="magellan.repository" name="magellan.repository" version="3.0" provider-name="magellan">
+	<extension point="xbmc.addon.repository" name="magellan.repository">
+		<info compressed="false">http://raw.github.com/euro2000/magellan.repository/master/addons.xml</info>
+		<checksum>http://raw.github.com/euro2000/magellan.repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">http://raw.github.com/euro2000/magellan.repository/master/repo/zips</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Third party Addons for Kodi</summary>
-		<description>Gujal Addons Repository</description>
+		<summary>magellan repository</summary>
+		<description>Magellan repository</description>
+		<disclaimer></disclaimer>
 		<platform>all</platform>
 	</extension>
 </addon>
+
 
 <addon id="script.module.resolveurl" name="ResolveURL" version="5.0.38" provider-name="jsergio">
     <requires>
