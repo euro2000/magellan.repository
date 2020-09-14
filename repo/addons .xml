@@ -38,9 +38,9 @@ em procura livre na internet
 
 <addon id="magellan.repository" name="Repo Magellan" version="3.0" provider-name="magellan">
 	<extension point="xbmc.addon.repository" name="repository.magellan">
-		<info compressed="false">http://raw.github.com/euro2000/magellan.repository/master/addons.xml</info>
-		<checksum>http://raw.github.com/euro2000/magellan.repository/master/addons.xml.md5</checksum>
-		<datadir zip="true">http://raw.github.com/euro2000/magellan.repository/master/repo/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/euro2000/magellan.repository/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/euro2000/magellan.repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/euro2000/magellan.repository/tree/master/repo/Plugins/</datadir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>Repo Magellan</summary>
@@ -49,5 +49,5 @@ em procura livre na internet
 		<platform>all</platform>
 	</extension>
 </addon>
-</addons>
+
 </addons>
